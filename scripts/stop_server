@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Stopping and removing the running container"
+docker stop test-webapp-demo || true && docker rm -f test-webapp-demo || true
+docker rmi -f 257851973096.dkr.ecr.us-west-2.amazonaws.com/test-webapp-demo

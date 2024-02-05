@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -itd --name test-webapp-demo --restart always -p 80:80 257851973096.dkr.ecr.us-west-2.amazonaws.com/test-webapp-demo

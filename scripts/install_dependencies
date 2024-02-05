@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Pulling Image From ECR "
+$(aws ecr get-login --no-include-email --region us-west-2)
+docker pull 257851973096.dkr.ecr.us-west-2.amazonaws.com/test-webapp-demo
